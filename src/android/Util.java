@@ -19,10 +19,10 @@ public class Util {
     /**
      * Read bytes from InputStream
      *
-     * @link http://stackoverflow.com/questions/2436385/android-getting-from-a-uri-to-an-inputstream-to-a-byte-array
      * @param inputStream
      * @return
      * @throws IOException
+     * @link http://stackoverflow.com/questions/2436385/android-getting-from-a-uri-to-an-inputstream-to-a-byte-array
      */
     public static byte[] readBytes(InputStream inputStream) throws IOException {
         // this dynamically extends to take the bytes you read
@@ -51,7 +51,7 @@ public class Util {
             }
         }
 
-        if(!cacheDir.isDirectory()) {
+        if (!cacheDir.isDirectory()) {
             cacheDir = context.getCacheDir(); //get system cache folder
         }
 
